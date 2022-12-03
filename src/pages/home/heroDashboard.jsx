@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HomeDashboard from "../../assets/img/HomeDashboard.png"
+import Dashboard from "../../assets/img/Dashboard.png";
 
 const HeroDashboard = () => {
   return (
@@ -14,9 +14,7 @@ const HeroDashboard = () => {
           <span className="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">
             New
           </span>
-          <span className="text-sm font-medium">
-            See what's new!
-          </span>
+          <span className="text-sm font-medium">See what's new!</span>
           <svg
             className="ml-2 w-5 h-5"
             fill="currentColor"
@@ -24,9 +22,9 @@ const HeroDashboard = () => {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-              clip-rule="evenodd"
+              clipRule="evenodd"
             ></path>
           </svg>
         </Link>
@@ -39,7 +37,7 @@ const HeroDashboard = () => {
         </p>
 
         <div className="mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-          <img src={HomeDashboard} alt="dashboard" />
+          <img src={Dashboard} alt="dashboard" />
         </div>
       </div>
     </section>
